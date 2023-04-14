@@ -2,7 +2,9 @@
   <div id="app">
     <n-config-provider :theme="theme">
       <n-global-style />
-
+      <n-message-provider>
+        <MSG ref="msgg" />
+      </n-message-provider>
       <!-- 顶部导航栏 -->
       <n-card class="card_class" hoverable>
         <div class="Top">
@@ -10,12 +12,10 @@
           <n-space>
             <n-button @click="show_Tip = true" v-if="!show_Tip">Tip</n-button>
             <n-button @click="theme = darkTheme" v-if="theme == null"
-              ><n-icon size="20">
-                <SunnySharp /> </n-icon
+              ><n-icon size="20"> <SunnySharp /> </n-icon
             ></n-button>
             <n-button @click="theme = null" v-else
-              ><n-icon size="20">
-                <MoonOutline /> </n-icon
+              ><n-icon size="20"> <MoonOutline /> </n-icon
             ></n-button>
             <a href="https://github.com/XXGGG/XGAiTags" target="_blank">
               <n-button>
@@ -170,6 +170,16 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import StatuteBook2 from "./assets/StatuteBook.json";
+import { useClipboard, useStorage } from "@vueuse/core";
+import {
+  Add,
+  Remove,
+  Close,
+  LogoGithub,
+  SunnySharp,
+  MoonOutline,
+} from "@vicons/ionicons5";
 import {
   NGlobalStyle,
   NConfigProvider,
@@ -184,18 +194,10 @@ import {
   NSwitch,
   NIcon,
   NSpace,
+  NMessageProvider,
 } from "naive-ui";
-import StatuteBook2 from "./assets/StatuteBook.json";
-import { useClipboard ,useStorage } from "@vueuse/core";
+import MSG from "./components/msg.vue";
 import type { GlobalTheme } from "naive-ui";
-import {
-  Add,
-  Remove,
-  Close,
-  LogoGithub,
-  SunnySharp,
-  MoonOutline,
-} from "@vicons/ionicons5";
 
 const theme = ref<GlobalTheme | null>(darkTheme);
 
@@ -238,7 +240,7 @@ function closeTag(tag: any) {
   //去掉左右两边的括号！
   if (tag.en[0] == "(" || tag.en[0] == "[" || tag.en[0] == "{") {
     tag.en = tag.en.slice(1, -1);
-    tags.value.splice(index, index == 0 ? "1" : index, tag);
+    // tags.value.splice(index, index == 0 ? "1" : index, tag);
     closeTag(tag);
   } else {
     tags.value.splice(index, 1);
@@ -252,9 +254,11 @@ function close_all() {
   JoinWord();
 }
 
+const msgg: any = ref(null);
 //复制标签！
 function copy_all() {
   copy(prompt.value);
+  msgg.value.show();
 }
 
 //判断是否选择了这个tag
@@ -268,23 +272,24 @@ function selected(tag: any) {
 }
 //是否显示权重
 // let showWeight = ref(false);
-const showWeight = useStorage('showWeight', false)
+const showWeight = useStorage("showWeight", false);
 //是否显示18禁
 // let showR18 = ref(false);
-const showR18 = useStorage('showR18', false)
+const showR18 = useStorage("showR18", false);
 //切换括号
 let togglebracket = ref(false);
 
 //加重权重
 function addKH(tag: any) {
   let index = tags.value.indexOf(tag);
-
+  console.log(index)
   if (tag.en[0] == "[") {
     tag.en = tag.en.slice(1, -1);
+    console.log(tag)
   } else {
     tag.en = "(" + tag.en + ")";
   }
-  tags.value.splice(index, index == 0 ? "1" : index, tag);
+  // tags.value.splice(index, index == "0" ? "1" : index, tag);
   JoinWord();
 }
 //减少权重
@@ -296,12 +301,12 @@ function subKH(tag: any) {
   } else {
     tag.en = "[" + tag.en + "]";
   }
-  tags.value.splice(index, index == 0 ? "1" : index, tag);
+  // tags.value.splice(index, index == "0" ? "1" : index, tag);
   JoinWord();
 }
 
 // let show_Tip = ref(true);
-const show_Tip = useStorage('show_Tip', true)
+const show_Tip = useStorage("show_Tip", true);
 //关闭提示
 function Close_hint() {
   show_Tip.value = false;
