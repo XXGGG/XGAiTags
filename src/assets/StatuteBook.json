@@ -1,0 +1,1886 @@
+[
+    {
+        "category": "画质",
+        "types": [
+            {
+                "name": "常用画质词",
+                "tags": [
+                    {
+                        "en": "masterpiece",
+                        "zh": "大师作品",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "best",
+                        "zh": "最好画质",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "lowres",
+                        "zh": "低分辨率",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "highres",
+                        "zh": "高分辨率",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "absurdres",
+                        "zh": "超高分辨率",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "incredibly_absurdres",
+                        "zh": "极高分辨率",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "正向预设",
+                "tags": [
+                    {
+                        "en": "masterpiece,best quality,official art,extremely detailed CG unity 8k wallpaper",
+                        "zh": "更高质量",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "风格",
+        "types": [
+            {
+                "name": "风格",
+                "tags": [
+                    {
+                        "en": "artbook",
+                        "zh": "原画",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "realistic",
+                        "zh": "写实",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "comic",
+                        "zh": "漫画",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "4koma",
+                        "zh": "四格漫画",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "photo",
+                        "zh": "照片",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "real",
+                        "zh": "真实",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "wallpaper",
+                        "zh": "壁纸",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "pixel_art",
+                        "zh": "点阵图",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "monochrome",
+                        "zh": "单色图片",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "sketch",
+                        "zh": "素描",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "traditional_media",
+                        "zh": "手绘",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "watercolor_",
+                        "zh": "透明水彩绘",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "主题",
+                "tags": [
+                    {
+                        "en": "dark",
+                        "zh": "暗的",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "light",
+                        "zh": "明亮",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "guro",
+                        "zh": "猎奇",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "silhouette",
+                        "zh": "剪影",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "covr",
+                        "zh": "封面",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "album",
+                        "zh": "专辑",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "game_cg",
+                        "zh": "游戏CG",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "cosplay",
+                        "zh": "角色扮演",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "colorful",
+                        "zh": "色彩斑斓",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "optical_illusion",
+                        "zh": "视觉错误",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "fine_art_parody",
+                        "zh": "名画模仿",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "布局",
+                "tags": [
+                    {
+                        "en": "back",
+                        "zh": "背影像",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bust",
+                        "zh": "半身像",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "profile",
+                        "zh": "侧面绘",
+                        "R18":"false"
+                    }
+                ]
+            },
+            {
+                "name": "背景",
+                "tags": [
+                    {
+                        "en": "transparent_background",
+                        "zh": "透明背景",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "simple_background",
+                        "zh": "无背景",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "gradient_background",
+                        "zh": "渐变背景",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "zoom_layer",
+                        "zh": "背景是前景的放大版",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "人物&角色",
+        "types": [
+            {
+                "name": "人物",
+                "tags": [
+                    {
+                        "en": "girl",
+                        "zh": "女孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "2girl",
+                        "zh": "2个女孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "3girl",
+                        "zh": "3个女孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "multiple girls",
+                        "zh": "多个女孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "boy",
+                        "zh": "男孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "2boys",
+                        "zh": "2个男孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "3boys",
+                        "zh": "3个男孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "solo",
+                        "zh": "单人",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "体态",
+                "tags": [
+                    {
+                        "en": "fat",
+                        "zh": "肥的",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "thin",
+                        "zh": "瘦的",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bodybuilding",
+                        "zh": "健美",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "abdominal muscle",
+                        "zh": "腹肌",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "形象特征",
+                "tags": [
+                    {
+                        "en": "little girl",
+                        "zh": "小女孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "little boy",
+                        "zh": "小男孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "shota",
+                        "zh": "正太（小男孩）",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "kawaii",
+                        "zh": "萝莉（小女孩）",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "kawaii",
+                        "zh": "可爱",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "mesugaki",
+                        "zh": "雌小鬼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "adorable girl",
+                        "zh": "可爱的女孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bishoujo",
+                        "zh": "美少女",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "gyaru",
+                        "zh": "辣妹",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "sisters",
+                        "zh": "姐妹",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "ojousama",
+                        "zh": "大小姐",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "mature female",
+                        "zh": "成熟女性",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "mature",
+                        "zh": "成熟",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "female pervert",
+                        "zh": "痴女",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "milf",
+                        "zh": "熟女",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "harem",
+                        "zh": "后宫",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "角色",
+                "tags": [
+                    {
+                        "en": "angel",
+                        "zh": "天使",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "cheerleader",
+                        "zh": "啦啦队",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "chibi",
+                        "zh": "Q版人物",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "crossdressing girls",
+                        "zh": "伪娘",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "devil",
+                        "zh": "魔鬼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "doll",
+                        "zh": "人偶",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "elf",
+                        "zh": "妖精",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "fairy",
+                        "zh": "小精灵",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "furry",
+                        "zh": "兽人",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "orc",
+                        "zh": "半兽人",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "giantess",
+                        "zh": "女巨人",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "idol",
+                        "zh": "偶像",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "kemonomimi_mode",
+                        "zh": "兽耳萝莉",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "magical_girl",
+                        "zh": "魔法少女",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "maid",
+                        "zh": "女仆",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "mermaid",
+                        "zh": "美人鱼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "miko",
+                        "zh": "巫女",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "milf",
+                        "zh": "熟女",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "minigirl",
+                        "zh": "迷你女孩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "monster",
+                        "zh": "怪物",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "multiple_girls",
+                        "zh": "魔幻少女",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "ninja",
+                        "zh": "忍者",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "nun",
+                        "zh": "修女",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "nurse",
+                        "zh": "护士",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "stewardess",
+                        "zh": "空姐",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "student",
+                        "zh": "学生",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "vampire",
+                        "zh": "吸血鬼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "waitress",
+                        "zh": "女服务员",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "witch",
+                        "zh": "女巫",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "yaoi",
+                        "zh": "搞基（男男）",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "yuri",
+                        "zh": "百合（女女）",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "头发&发饰",
+        "types": [
+            {
+                "name": "头发长度",
+                "tags": [
+                    {
+                        "en": "very short hair",
+                        "zh": "很短的头发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "short hair",
+                        "zh": "短发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "medium hair",
+                        "zh": "中发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "long hair",
+                        "zh": "长发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "very long hair",
+                        "zh": "很长的头发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "absurdly long hair",
+                        "zh": "特别长的头发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair over shoulder",
+                        "zh": "头发过肩膀",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "alternate hair length",
+                        "zh": "有长有短",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "头发颜色",
+                "tags": [
+                    {
+                        "en": "blonde hair",
+                        "zh": "金发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "brown hair",
+                        "zh": "棕发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "brown hair",
+                        "zh": "黑发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "blue hair",
+                        "zh": "蓝发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "purple hair",
+                        "zh": "紫发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "pink hair",
+                        "zh": "粉发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "white hair",
+                        "zh": "白发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "red hair",
+                        "zh": "红发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "grey hair",
+                        "zh": "灰发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "green hair",
+                        "zh": "绿发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "silver hair",
+                        "zh": "银发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "orange hair",
+                        "zh": "橙发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "light brown hair",
+                        "zh": "浅棕发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "light purple hair",
+                        "zh": "浅紫发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "light blue hair",
+                        "zh": "浅蓝发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "platinum blonde hair",
+                        "zh": "铂金发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "gradient hair",
+                        "zh": "渐变",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "multicolored  hair",
+                        "zh": "多色",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "shiny hair",
+                        "zh": "闪亮",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "two-tone hair",
+                        "zh": "双色",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "streaked hair",
+                        "zh": "挑染",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "aqua hair",
+                        "zh": "水色",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "colored inner hair",
+                        "zh": "内层彩发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "alternate hair",
+                        "zh": "交替发色",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "发型",
+                "tags": [
+                    {
+                        "en": "ahoge",
+                        "zh": "呆毛",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "antenna hair",
+                        "zh": "多根呆毛",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bob cut",
+                        "zh": "妹妹切",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hime_cut",
+                        "zh": "公主切",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "crossed bangs",
+                        "zh": "交叉刘海",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair wings",
+                        "zh": "翼状头发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "disheveled hair",
+                        "zh": "蓬松发型",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "wavy hair",
+                        "zh": "波浪头",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "curly_hair",
+                        "zh": "卷发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair in takes",
+                        "zh": "头发收拢",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "forehead",
+                        "zh": "露额头",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "drill hair",
+                        "zh": "公主卷",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair bun",
+                        "zh": "包子头",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "double_bun",
+                        "zh": "俩包子头",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "straight hair",
+                        "zh": "直发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "spiked hair",
+                        "zh": "尖刺的头发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "short hair with long locks",
+                        "zh": "短发长鬓角",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "low-tied long hair",
+                        "zh": "低扎头发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "asymmetrical hair",
+                        "zh": "不对称的头发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "alternate hairstyle",
+                        "zh": "交替发型",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair twirling",
+                        "zh": "卷发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair slicked back",
+                        "zh": "头发向后梳",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair up",
+                        "zh": "翘发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair down",
+                        "zh": "垂发",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "wet hair",
+                        "zh": "湿头发",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "辫子",
+                "tags": [
+                    {
+                        "en": "braid",
+                        "zh": "辫子",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "twin braids",
+                        "zh": "双辫子",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "single braid",
+                        "zh": "单辫",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "side braid",
+                        "zh": "侧辫",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "long braid",
+                        "zh": "长辫",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "french braid",
+                        "zh": "法式辫",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "crown braid",
+                        "zh": "皇冠辫",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "ponytail",
+                        "zh": "马尾辫",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "braided ponytail",
+                        "zh": "编马尾",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "high ponytail",
+                        "zh": "高马尾",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "twintails",
+                        "zh": "双马尾",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "short_ponytail",
+                        "zh": "短马尾",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "刘海",
+                "tags": [
+                    {
+                        "en": "blunt bangs",
+                        "zh": "齐刘海",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "parted bangs",
+                        "zh": "分刘海",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "diagonal bangs",
+                        "zh": "斜刘海",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "发饰",
+                "tags": [
+                    {
+                        "en": "hair bow",
+                        "zh": "蝴蝶结",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair ribbon",
+                        "zh": "发带",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hair flower",
+                        "zh": "头花",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hairclip",
+                        "zh": "发夹",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "lolita hairband",
+                        "zh": "洛丽塔发带",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "五官&表情",
+        "types": [
+            {
+                "name": "五官",
+                "tags": [
+                    {
+                        "en": "makeup",
+                        "zh": "浓妆",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "aqua eyes",
+                        "zh": "水汪汪大眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "wink",
+                        "zh": "眨眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "heart in eye",
+                        "zh": "爱心眼睛",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "half-closed eyes",
+                        "zh": "半闭眼睛",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "open mouth",
+                        "zh": "张嘴",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "clenched teeth",
+                        "zh": "咬紧牙关",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "one eye closed",
+                        "zh": "闭上一只眼睛",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "expressionless",
+                        "zh": "无表情",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "frown",
+                        "zh": "皱眉",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "wide eyed",
+                        "zh": "瞪大眼睛",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "眼睛颜色",
+                "tags": [
+                    {
+                        "en": "blue eyes",
+                        "zh": "蓝眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "red eyes",
+                        "zh": "红眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "brown eyes",
+                        "zh": "棕眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "green eyes",
+                        "zh": "绿眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "purple eyes",
+                        "zh": "紫眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "yellow eyes",
+                        "zh": "黄眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "pink eyes",
+                        "zh": "粉眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "black eyes",
+                        "zh": "黑眼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "aqua eyes",
+                        "zh": "水蓝眼",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "表情",
+                "tags": [
+                    {
+                        "en": "light smile",
+                        "zh": "微笑",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "shy",
+                        "zh": "害羞",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "sleepy",
+                        "zh": "困",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "tongue out",
+                        "zh": "吐舌头",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "身体",
+        "types": [
+            {
+                "name": "身材",
+                "tags": [
+                    {
+                        "en": "mole on breast",
+                        "zh": "胸怀大痣",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "服装",
+        "types": [
+            {
+                "name": "衣服",
+                "tags": [
+                    {
+                        "en": "sailor suite",
+                        "zh": "水手服",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "school uniform",
+                        "zh": "校服",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "seifuku",
+                        "zh": "日本校服",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "business_suit",
+                        "zh": "职场制服",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "wedding_dress",
+                        "zh": "婚纱",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "gothic_lolita",
+                        "zh": "哥特洛丽塔",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "lolita_fashion",
+                        "zh": "洛丽塔风格",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "gothic",
+                        "zh": "哥特",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "dungarees",
+                        "zh": "工装服",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "sportswear",
+                        "zh": "运动服",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hoodie",
+                        "zh": "连帽衫",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "cape",
+                        "zh": "斗篷",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "sling bikini,",
+                        "zh": "吊带比基尼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "swimsuit,",
+                        "zh": "泳装",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "Sukumizu,",
+                        "zh": "死库水",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "pajamas,",
+                        "zh": "睡衣",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "裤子&裙子",
+                "tags": [
+                    {
+                        "en": "bloomers",
+                        "zh": "灯笼裤",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "short shorts",
+                        "zh": "热裤",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "shorts",
+                        "zh": "短裤",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "buruma",
+                        "zh": "日本女生运动短裤",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "skirt",
+                        "zh": "裙子",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "miniskirt",
+                        "zh": "迷你裙",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "pleated_skirt",
+                        "zh": "百褶裙",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "腿饰&鞋",
+        "types": [
+            {
+                "name": "腿部",
+                "tags": [
+                    {
+                        "en": "bare legs",
+                        "zh": "裸腿",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "thighhighs",
+                        "zh": "长筒袜",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bobby socks",
+                        "zh": "短袜",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "fishnet legwear",
+                        "zh": "渔网袜",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "mechanical legs",
+                        "zh": "机械腿",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "鞋",
+                "tags": [
+                    {
+                        "en": "shoes",
+                        "zh": "鞋子",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "boots",
+                        "zh": "靴子",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "high heels",
+                        "zh": "高跟鞋",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "slippers",
+                        "zh": "拖鞋",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "装饰",
+        "types": [
+            {
+                "name": "装饰",
+                "tags": [
+                    {
+                        "en": "halo",
+                        "zh": "光环",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hood",
+                        "zh": "兜帽",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "nurse cap",
+                        "zh": "护士帽",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "tiara",
+                        "zh": "皇冠",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "oni horns",
+                        "zh": "鬼角",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "demon horns",
+                        "zh": "恶魔角",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "sunglasses",
+                        "zh": "太阳镜",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "eyepatch",
+                        "zh": "眼罩（独眼）",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "headphones",
+                        "zh": "耳机",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "mouth mask",
+                        "zh": "口罩",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bell",
+                        "zh": "铃铛",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "cuffs",
+                        "zh": "手铐",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "gloves",
+                        "zh": "手套",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "half gloves",
+                        "zh": "露指手套",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "school bag",
+                        "zh": "书包",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "glasses",
+                        "zh": "眼镜",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "earrings",
+                        "zh": "耳环",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "动作",
+        "types": [
+            {
+                "name": "头部动作",
+                "tags": [
+                    {
+                        "en": "head tilt",
+                        "zh": "歪头",
+                        "R18":"false"
+                    }
+                ]
+            },
+            {
+                "name": "身体动作",
+                "tags": [
+                    {
+                        "en": "salute",
+                        "zh": "敬礼",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "running",
+                        "zh": "跑步动作",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "looking back",
+                        "zh": "回头看",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "looking down",
+                        "zh": "向下看",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "looking_at_viewer",
+                        "zh": "看向观众",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "环境",
+        "types": [
+            {
+                "name": "朝朝暮暮",
+                "tags": [
+                    {
+                        "en": "dat",
+                        "zh": "白天",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "dusk",
+                        "zh": "黄昏",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "night",
+                        "zh": "夜晚",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "in spring",
+                        "zh": "春",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "in summer",
+                        "zh": "夏",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "in autumn",
+                        "zh": "秋",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "in winter",
+                        "zh": "冬",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "日月星辰",
+                "tags": [
+                    {
+                        "en": "sun",
+                        "zh": "太阳",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "sunset",
+                        "zh": "落日",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "moon",
+                        "zh": "夜晚",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "full_moon",
+                        "zh": "满月",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "stars",
+                        "zh": "星星",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "cloudy",
+                        "zh": "多云",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "rain",
+                        "zh": "下雨",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "in the rain",
+                        "zh": "雨中",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "rainy days",
+                        "zh": "雨天",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "snow",
+                        "zh": "下雪",
+                        "R18": "false"
+                    }
+                ]
+            },{
+                "name": "室内",
+                "tags": [
+                    {
+                        "en": "classroom",
+                        "zh": "教室",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bedroom",
+                        "zh": "卧室",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bathroom",
+                        "zh": "浴室",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "bathtub",
+                        "zh": "浴缸",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "kitchen",
+                        "zh": "厨房",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "library",
+                        "zh": "图书馆",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "stage",
+                        "zh": "舞台",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "locke room",
+                        "zh": "更衣室",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "office",
+                        "zh": "办公室",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "gym",
+                        "zh": "健身房",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "messy room",
+                        "zh": "杂乱的房间",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "dungeon",
+                        "zh": "地牢",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "fitting room",
+                        "zh": "试衣间",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "toilet stall",
+                        "zh": "厕所隔间",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "laboratory",
+                        "zh": "实验室",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "living room",
+                        "zh": "客厅",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "建筑",
+                "tags": [
+                    {
+                        "en": "shrine",
+                        "zh": "神社",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "shop",
+                        "zh": "商店",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "ruins",
+                        "zh": "废墟",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "castle",
+                        "zh": "城堡",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "kitchen",
+                        "zh": "厨房",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "train station",
+                        "zh": "火车站",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "stadium",
+                        "zh": "体育场",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "hospital",
+                        "zh": "医院",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "movie theater",
+                        "zh": "电影院",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "gym",
+                        "zh": "健身房",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "messy room",
+                        "zh": "杂乱的房间",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "dungeon",
+                        "zh": "地牢",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "fitting room",
+                        "zh": "试衣间",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "toilet stall",
+                        "zh": "厕所隔间",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "laboratory",
+                        "zh": "实验室",
+                        "R18":"false"
+                    },
+                    {
+                        "en": "living room",
+                        "zh": "客厅",
+                        "R18": "false"
+                    }
+                ]
+            }
+            
+        ]
+    },{
+        "category": "R18",
+        "types": [
+            {
+                "name": "R18-名词",
+                "tags": [
+                    {
+                        "en": "sex",
+                        "zh": "性爱",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "leash",
+                        "zh": "宠物链",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "clitoris",
+                        "zh": "阴蒂",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "partially visible vulva",
+                        "zh": "可以看见一部分外阴",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "penis",
+                        "zh": "阳具/屌",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "pussy",
+                        "zh": "阴户",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "pussy juice",
+                        "zh": "爱液",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "pussy juice trail",
+                        "zh": "拉丝的爱液",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "huge ass",
+                        "zh": "大屁股",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "shaved pussy",
+                        "zh": "剃过阴毛的",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "cameltoe",
+                        "zh": "骆驼趾（俗称馒头逼）",
+                        "R18": "true"
+                    }
+                ]
+            },
+            {
+                "name": "姿势",
+                "tags": [
+                    {
+                        "en": "missionary",
+                        "zh": "传教士体位",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "girl on top",
+                        "zh": "女上体位",
+                        "R18": "true"
+                    }
+                ]
+            },
+            {
+                "name": "动作",
+                "tags": [
+                    {
+                        "en": "facial",
+                        "zh": "颜射",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "paizuri",
+                        "zh": "乳交",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "masturbation",
+                        "zh": "自慰",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "oral",
+                        "zh": "口交",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "group sex",
+                        "zh": "群P",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "clothed sex",
+                        "zh": "穿着衣服做爱",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "gangbang",
+                        "zh": "轮奸",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "happy sex",
+                        "zh": "快乐做爱",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "cunnilingus",
+                        "zh": "舔阴",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "footjob",
+                        "zh": "足交",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "double handjob",
+                        "zh": "双手各握着一根阴茎",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "spread ass",
+                        "zh": "用手张开屁股",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "cum inside",
+                        "zh": "内射",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "cum on breast",
+                        "zh": "射在胸上",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "reverse cowgirl",
+                        "zh": "女上反骑",
+                        "R18":"true"
+                    },
+                    {
+                        "en": "triple penetration",
+                        "zh": "三穴同插",
+                        "R18": "true"
+                    }
+                ]
+            }
+        ]
+    }
+]
