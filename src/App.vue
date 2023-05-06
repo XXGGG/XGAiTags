@@ -10,7 +10,6 @@
         <div class="Top">
           <div>XG AiTags</div>
           <n-space>
-            <n-button @click="show_Tip = true" v-if="!show_Tip">Tip</n-button>
             <n-button @click="theme = darkTheme" v-if="theme == null">
               <n-icon size="20"><SunnySharp /></n-icon>
             </n-button>
@@ -26,26 +25,6 @@
             </a>
           </n-space>
         </div>
-      </n-card>
-      <n-card
-        closable
-        hoverable
-        @close="Close_hint()"
-        v-show="show_Tip"
-        class="card_class"
-        title="Tip">
-        <p>
-          🚀 优秀的关键词 🟰 画质要求 ➕ 风格类型 ➕ 人物/物品描述 ➕ 场景描述 ➕
-          细节补充
-        </p>
-        <p>🖼️ 优秀的AI绘画 🟰 风格相应的模型 ➕ 优秀的关键词 ➕ 反关键词</p>
-        <p>
-          ⚠️ 注意：选择【风格】时，最好有对应风格的模型（下载模型的地址：
-          <a href="https://civitai.com/">Civitai（需要翻墙）</a>
-          |
-          <a href="https://models.paomiantv.cn/models/">炼丹阁</a>
-          ）
-        </p>
       </n-card>
 
       <!-- 展示框 -->
@@ -312,12 +291,6 @@ function subKH(tag: any) {
   JoinWord();
 }
 
-// let show_Tip = ref(true);
-const show_Tip = useStorage("show_Tip", true);
-//关闭提示
-function Close_hint() {
-  show_Tip.value = false;
-}
 
 ///拖拽
 let in_index: any = null;

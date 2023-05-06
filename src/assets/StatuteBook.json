@@ -29,6 +29,11 @@
                         "en": "incredibly_absurdres",
                         "zh": "极高分辨率",
                         "R18": "false"
+                    },
+                    {
+                        "en": "wallpaper",
+                        "zh": "壁纸",
+                        "R18": "false"
                     }
                 ]
             },
@@ -150,10 +155,10 @@
         ]
     },
     {
-        "category": "风格",
+        "category": "风格&主题",
         "types": [
             {
-                "name": "风格",
+                "name": "画风",
                 "tags": [
                     {
                         "en": "artbook",
@@ -163,16 +168,6 @@
                     {
                         "en": "realistic",
                         "zh": "写实",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "comic",
-                        "zh": "漫画",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "4koma",
-                        "zh": "四格漫画",
                         "R18": "false"
                     },
                     {
@@ -186,13 +181,8 @@
                         "R18": "false"
                     },
                     {
-                        "en": "wallpaper",
-                        "zh": "壁纸",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "pixel_art",
-                        "zh": "点阵图",
+                        "en": "comic",
+                        "zh": "漫画",
                         "R18": "false"
                     },
                     {
@@ -211,14 +201,14 @@
                         "R18": "false"
                     },
                     {
-                        "en": "watercolor_",
-                        "zh": "透明水彩绘",
+                        "en": "chibi",
+                        "zh": "Q版",
                         "R18": "false"
                     }
                 ]
             },
             {
-                "name": "主题",
+                "name": "颜色主题",
                 "tags": [
                     {
                         "en": "dark",
@@ -231,25 +221,15 @@
                         "R18": "false"
                     },
                     {
-                        "en": "guro",
-                        "zh": "猎奇",
+                        "en": "colorful",
+                        "zh": "色彩斑斓",
                         "R18": "false"
-                    },
-                    {
-                        "en": "silhouette",
-                        "zh": "剪影",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "covr",
-                        "zh": "封面",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "album",
-                        "zh": "专辑",
-                        "R18": "false"
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "内容主题",
+                "tags": [
                     {
                         "en": "game_cg",
                         "zh": "游戏CG",
@@ -261,63 +241,28 @@
                         "R18": "false"
                     },
                     {
-                        "en": "colorful",
-                        "zh": "色彩斑斓",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "optical_illusion",
-                        "zh": "视觉错误",
+                        "en": "Dunhuang",
+                        "zh": "敦煌",
                         "R18": "false"
                     },
                     {
                         "en": "fine_art_parody",
                         "zh": "名画模仿",
                         "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "布局",
-                "tags": [
+                    },
                     {
-                        "en": "back",
-                        "zh": "背影像",
+                        "en": "cyberpunk",
+                        "zh": "赛博朋克",
                         "R18": "false"
                     },
                     {
-                        "en": "bust",
-                        "zh": "半身像",
+                        "en": "steampunk",
+                        "zh": "蒸汽朋克",
                         "R18": "false"
                     },
                     {
-                        "en": "profile",
-                        "zh": "侧面绘",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "背景",
-                "tags": [
-                    {
-                        "en": "transparent_background",
-                        "zh": "透明背景",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "simple_background",
-                        "zh": "无背景",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "gradient_background",
-                        "zh": "渐变背景",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "zoom_layer",
-                        "zh": "背景是前景的放大版",
+                        "en": "roach",
+                        "zh": "废土",
                         "R18": "false"
                     }
                 ]
@@ -325,13 +270,13 @@
         ]
     },
     {
-        "category": "人物&角色",
+        "category": "人物&角色&身材",
         "types": [
             {
                 "name": "人物",
                 "tags": [
                     {
-                        "en": "girl",
+                        "en": "1girl",
                         "zh": "女孩",
                         "R18": "false"
                     },
@@ -372,13 +317,102 @@
                     }
                 ]
             },
-           
             {
-                "name": "体态",
+                "name": "构图",
                 "tags": [
                     {
-                        "en": "chibi",
-                        "zh": "Q 版",
+                        "en": "back",
+                        "zh": "背影像",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "bust",
+                        "zh": "半身像",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "full body",
+                        "zh": "全身照",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "profile",
+                        "zh": "侧面绘",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "角色（兽娘）",
+                "tags": [
+                    {
+                        "en": "mecha musume",
+                        "zh": "机娘",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "cat girl",
+                        "zh": "猫娘",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "dragon girl",
+                        "zh": "龙娘",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "dog girl",
+                        "zh": "犬娘",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "furry",
+                        "zh": "兽人",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "orc",
+                        "zh": "半兽人",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "wolf girl",
+                        "zh": "狼女孩",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "kemonomimi_mode",
+                        "zh": "兽耳萝莉",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "mermaid",
+                        "zh": "美人鱼",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "角色（人物）",
+                "tags": [
+                    {
+                        "en": "bara",
+                        "zh": "大叔",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "milf",
+                        "zh": "熟女",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "yaoi",
+                        "zh": "搞基（男男）",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "yuri",
+                        "zh": "百合（女女）",
                         "R18": "false"
                     },
                     {
@@ -402,18 +436,8 @@
                         "R18": "false"
                     },
                     {
-                        "en": "kawaii",
-                        "zh": "可爱",
-                        "R18": "false"
-                    },
-                    {
                         "en": "mesugaki",
                         "zh": "雌小鬼",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "adorable girl",
-                        "zh": "可爱的女孩",
                         "R18": "false"
                     },
                     {
@@ -427,21 +451,6 @@
                         "R18": "false"
                     },
                     {
-                        "en": "adolescent",
-                        "zh": "青春期",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "mature female",
-                        "zh": "成熟女性",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "mature",
-                        "zh": "成熟",
-                        "R18": "false"
-                    },
-                    {
                         "en": "female pervert",
                         "zh": "痴女",
                         "R18": "false"
@@ -452,53 +461,153 @@
                         "R18": "false"
                     },
                     {
-                        "en": "harem",
-                        "zh": "后宫",
+                        "en": "student",
+                        "zh": "学生",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "twins",
+                        "zh": "双胞胎",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "loli",
+                        "zh": "萝莉",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "k/da (league of legends)",
+                        "zh": "KDA组合(英雄联盟)",
                         "R18": "false"
                     }
                 ]
             },
             {
-                "name": "角色",
+                "name": "角色（职业）",
                 "tags": [
-                    {
-                        "en": "angel",
-                        "zh": "天使",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "mecha musume",
-                        "zh": "机娘",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "cat girl",
-                        "zh": "猫娘",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "dragon girl",
-                        "zh": "龙娘",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "dog girl",
-                        "zh": "犬娘",
-                        "R18": "false"
-                    },
                     {
                         "en": "cheerleader",
                         "zh": "啦啦队",
                         "R18": "false"
                     },
                     {
-                        "en": "chibi",
-                        "zh": "Q版人物",
+                        "en": "idol",
+                        "zh": "偶像",
                         "R18": "false"
                     },
                     {
-                        "en": "crossdressing girls",
-                        "zh": "伪娘",
+                        "en": "bunny girl",
+                        "zh": "兔女郎",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "nurse",
+                        "zh": "护士",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "stewardess",
+                        "zh": "空姐",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "police",
+                        "zh": "警察",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "doctor",
+                        "zh": "医生",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "office lady",
+                        "zh": "办公室女职员",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "waitress",
+                        "zh": "女服务员",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "maid",
+                        "zh": "女仆",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "ballerina",
+                        "zh": "芭蕾舞女演员",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "角色（动画）",
+                "tags": [
+                    {
+                        "en": "sailor senshi",
+                        "zh": "美少女战士",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "valkyrie",
+                        "zh": "女武神",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "magical_girl",
+                        "zh": "魔法少女",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "nun",
+                        "zh": "修女",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "princess",
+                        "zh": "公主",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "ojousama",
+                        "zh": "大小姐",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "goddess",
+                        "zh": "女神",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "ninja",
+                        "zh": "忍者",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "race queen",
+                        "zh": "赛车女郎",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "dominatrix",
+                        "zh": "女王(SM中)",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "witch",
+                        "zh": "女巫",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "角色（鬼神）",
+                "tags": [
+                    {
+                        "en": "angel",
+                        "zh": "天使",
                         "R18": "false"
                     },
                     {
@@ -522,68 +631,8 @@
                         "R18": "false"
                     },
                     {
-                        "en": "furry",
-                        "zh": "兽人",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "wolf girl",
-                        "zh": "狼女孩",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "bara",
-                        "zh": "大叔",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "orc",
-                        "zh": "半兽人",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "giantess",
-                        "zh": "女巨人",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "idol",
-                        "zh": "偶像",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "kemonomimi_mode",
-                        "zh": "兽耳萝莉",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "magical_girl",
-                        "zh": "魔法少女",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "maid",
-                        "zh": "女仆",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "mermaid",
-                        "zh": "美人鱼",
-                        "R18": "false"
-                    },
-                    {
                         "en": "miko",
                         "zh": "巫女",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "milf",
-                        "zh": "熟女",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "minigirl",
-                        "zh": "迷你女孩",
                         "R18": "false"
                     },
                     {
@@ -597,106 +646,6 @@
                         "R18": "false"
                     },
                     {
-                        "en": "multiple_girls",
-                        "zh": "魔幻少女",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "goddess",
-                        "zh": "女神",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "bunny girl",
-                        "zh": "兔女郎",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "sisters",
-                        "zh": "姐妹",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "sailor senshi",
-                        "zh": "美少女战士",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "valkyrie",
-                        "zh": "女武神",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "ojousama",
-                        "zh": "大小姐",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "twins",
-                        "zh": "双胞胎",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "ninja",
-                        "zh": "忍者",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "nun",
-                        "zh": "修女",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "loli",
-                        "zh": "萝莉",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "nurse",
-                        "zh": "护士",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "stewardess",
-                        "zh": "空姐",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "police",
-                        "zh": "警察",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "angel and devil",
-                        "zh": "天使与恶魔",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "doctor",
-                        "zh": "医生",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "office lady",
-                        "zh": "办公室女职员",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "race queen",
-                        "zh": "赛车女郎",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "ballerina",
-                        "zh": "芭蕾舞女演员",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "student",
-                        "zh": "学生",
-                        "R18": "false"
-                    },
-                    {
                         "en": "kitsune",
                         "zh": "妖狐",
                         "R18": "false"
@@ -704,16 +653,6 @@
                     {
                         "en": "vampire",
                         "zh": "吸血鬼",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "waitress",
-                        "zh": "女服务员",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "witch",
-                        "zh": "女巫",
                         "R18": "false"
                     },
                     {
@@ -727,38 +666,138 @@
                         "R18": "false"
                     },
                     {
-                        "en": "princess",
-                        "zh": "公主",
+                        "en": "giantess",
+                        "zh": "女巨人",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "体态",
+                "tags": [
+                    {
+                        "en": "fat",
+                        "zh": "肥的",
                         "R18": "false"
                     },
                     {
-                        "en": "dominatrix",
-                        "zh": "女王(SM中)",
+                        "en": "plump",
+                        "zh": "丰满",
                         "R18": "false"
                     },
                     {
-                        "en": "teenage",
-                        "zh": "青少年",
+                        "en": "thin",
+                        "zh": "纤细的身材",
                         "R18": "false"
                     },
                     {
-                        "en": "glasses",
-                        "zh": "眼镜娘",
+                        "en": "emaciated",
+                        "zh": "瘦弱的",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "身材",
+                "tags": [
+                    {
+                        "en": "bodybuilding",
+                        "zh": "健美",
                         "R18": "false"
                     },
                     {
-                        "en": "k/da (league of legends)",
-                        "zh": "KDA组合(英雄联盟)",
+                        "en": "abdominal muscle",
+                        "zh": "腹肌",
                         "R18": "false"
                     },
                     {
-                        "en": "yaoi",
-                        "zh": "搞基（男男）",
+                        "en": "firm abs",
+                        "zh": "马甲线",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "胸部",
+                "tags": [
+                    {
+                        "en": "mole on breast",
+                        "zh": "胸怀大痣",
                         "R18": "false"
                     },
                     {
-                        "en": "yuri",
-                        "zh": "百合（女女）",
+                        "en": "cleavage",
+                        "zh": "乳沟",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "flat chest",
+                        "zh": "贫乳 (A)",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "small breasts",
+                        "zh": "小胸部 (B)",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "medium breasts",
+                        "zh": "中等胸部 (C)",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "large breasts",
+                        "zh": "大胸 (D)",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "huge breasts",
+                        "zh": "巨乳 (E)",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "sideboob",
+                        "zh": "侧乳",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "underboob",
+                        "zh": "南半球",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "sarashi",
+                        "zh": "缠胸布",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "cleavage cutout",
+                        "zh": "露出的乳沟",
+                        "R18": "true"
+                    },
+                    {
+                        "en": "breasts out",
+                        "zh": "胸部露出",
+                        "R18": "true"
+                    },
+                    {
+                        "en": "breast press",
+                        "zh": "挤压胸部",
+                        "R18": "true"
+                    },
+                    {
+                        "en": "no bra",
+                        "zh": "无胸罩",
+                        "R18": "true"
+                    },
+                    {
+                        "en": "covered nipples",
+                        "zh": "激凸的乳头/隐约可见的乳头",
+                        "R18": "true"
+                    },
+                    {
+                        "en": "pectorales",
+                        "zh": "胸肌",
                         "R18": "false"
                     }
                 ]
@@ -766,7 +805,7 @@
         ]
     },
     {
-        "category": "头发&发饰",
+        "category": "头发",
         "types": [
             {
                 "name": "头发长度",
@@ -1152,36 +1191,6 @@
                         "R18": "false"
                     }
                 ]
-            },
-            {
-                "name": "发饰",
-                "tags": [
-                    {
-                        "en": "hair bow",
-                        "zh": "蝴蝶结",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "hair ribbon",
-                        "zh": "发带",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "hair flower",
-                        "zh": "头花",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "hairclip",
-                        "zh": "发夹",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "lolita hairband",
-                        "zh": "洛丽塔发带",
-                        "R18": "false"
-                    }
-                ]
             }
         ]
     },
@@ -1189,21 +1198,51 @@
         "category": "五官&表情",
         "types": [
             {
-                "name": "五官",
+                "name": "眉眼",
                 "tags": [
                     {
-                        "en": "makeup",
-                        "zh": "浓妆",
+                        "en": "closed eyes",
+                        "zh": "闭上眼睛",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "half-closed eyes",
+                        "zh": "半闭眼睛",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "one eye closed",
+                        "zh": "一只眼睛闭着",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "wink",
+                        "zh": "眨眼",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "one eye closed",
+                        "zh": "闭上一只眼睛",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "frown",
+                        "zh": "皱眉",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "v-shaped eyebrows",
+                        "zh": "眉毛皱成V形(表高傲或愤怒)",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "wide eyed",
+                        "zh": "瞪大眼睛",
                         "R18": "false"
                     },
                     {
                         "en": "aqua eyes",
                         "zh": "水汪汪大眼",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "fang",
-                        "zh": "虎牙",
                         "R18": "false"
                     },
                     {
@@ -1344,6 +1383,71 @@
                 ]
             },
             {
+                "name": "嘴巴/舌",
+                "tags": [
+                    {
+                        "en": "open mouth",
+                        "zh": "张口",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "closed mouth",
+                        "zh": "闭嘴",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "fang",
+                        "zh": "虎牙",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "drooling",
+                        "zh": "流口水",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "licking lips",
+                        "zh": "舔嘴唇",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "long tongue",
+                        "zh": "长舌头",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "parted lips",
+                        "zh": "嘴唇微张",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "clenched teeth",
+                        "zh": "咬紧牙关",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "tongue out",
+                        "zh": "吐舌头",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "upper teeth",
+                        "zh": "露出上排牙齿",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "mouth hold",
+                        "zh": "嘴咬住",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "aqua eyes",
+                        "zh": "吐舌鬼脸",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
                 "name": "表情/神情",
                 "tags": [
                     {
@@ -1447,11 +1551,6 @@
                         "R18": "false"
                     },
                     {
-                        "en": "wink",
-                        "zh": "眨眼",
-                        "R18": "false"
-                    },
-                    {
                         "en": "nervous",
                         "zh": "不安的",
                         "R18": "false"
@@ -1459,31 +1558,6 @@
                     {
                         "en": "shy",
                         "zh": "害羞",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "open mouth",
-                        "zh": "张口",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "closed mouth",
-                        "zh": "闭嘴",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "drooling",
-                        "zh": "流口水",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "licking lips",
-                        "zh": "舔嘴唇",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "long tongue",
-                        "zh": "长舌头",
                         "R18": "false"
                     },
                     {
@@ -1502,185 +1576,9 @@
                         "R18": "false"
                     },
                     {
-                        "en": "closed eyes",
-                        "zh": "闭上眼睛",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "one eye closed",
-                        "zh": "一只眼睛闭着",
-                        "R18": "false"
-                    },
-                    {
                         "en": "covering",
                         "zh": "挡住脸",
                         "R18": "false"
-                    },
-                    {
-                        "en": "tongue out",
-                        "zh": "吐舌头",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "upper teeth",
-                        "zh": "露出上排牙齿",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "mouth hold",
-                        "zh": "嘴咬住",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "aqua eyes",
-                        "zh": "吐舌鬼脸",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "v-shaped eyebrows",
-                        "zh": "眉毛皱成V形(表高傲或愤怒)",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "parted lips",
-                        "zh": "嘴唇微张",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "half-closed eyes",
-                        "zh": "半闭眼睛",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "clenched teeth",
-                        "zh": "咬紧牙关",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "one eye closed",
-                        "zh": "闭上一只眼睛",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "frown",
-                        "zh": "皱眉",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "wide eyed",
-                        "zh": "瞪大眼睛",
-                        "R18": "false"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "category": "身体",
-        "types": [
-            {
-                "name": "体态",
-                "tags": [
-                    {
-                        "en": "fat",
-                        "zh": "肥的",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "thin",
-                        "zh": "瘦的",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "bodybuilding",
-                        "zh": "健美",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "abdominal muscle",
-                        "zh": "腹肌",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {   
-                
-                "name": "身材",
-                "tags": [
-                    {
-                        "en": "mole on breast",
-                        "zh": "胸怀大痣",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "cleavage",
-                        "zh": "乳沟",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "flat chest",
-                        "zh": "贫乳 (A)",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "small breasts",
-                        "zh": "小胸部 (B)",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "medium breasts",
-                        "zh": "中等胸部 (C)",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "large breasts",
-                        "zh": "大胸 (D)",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "huge breasts",
-                        "zh": "巨乳 (E)",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "sideboob",
-                        "zh": "侧乳",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "underboob",
-                        "zh": "南半球",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "sarashi",
-                        "zh": "缠胸布",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "cleavage cutout",
-                        "zh": "露出的乳沟",
-                        "R18": "true"
-                    },
-                    {
-                        "en": "breasts out",
-                        "zh": "胸部露出",
-                        "R18": "true"
-                    },
-                    {
-                        "en": "breast press",
-                        "zh": "挤压胸部",
-                        "R18": "true"
-                    },
-                    {
-                        "en": "no bra",
-                        "zh": "无胸罩",
-                        "R18": "true"
-                    },
-                    {
-                        "en": "covered nipples",
-                        "zh": "激凸的乳头/隐约可见的乳头",
-                        "R18": "true"
                     }
                 ]
             }
@@ -2235,7 +2133,7 @@
         "category": "装饰",
         "types": [
             {
-                "name": "装饰",
+                "name": "头饰",
                 "tags": [
                     {
                         "en": "halo",
@@ -2268,6 +2166,41 @@
                         "R18": "false"
                     },
                     {
+                        "en": "garland",
+                        "zh": "花环",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "hair bow",
+                        "zh": "蝴蝶结",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "hair ribbon",
+                        "zh": "发带",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "hair flower",
+                        "zh": "头花",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "hairclip",
+                        "zh": "发夹",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "lolita hairband",
+                        "zh": "洛丽塔发带",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "脸饰",
+                "tags": [
+                    {
                         "en": "sunglasses",
                         "zh": "太阳镜",
                         "R18": "false"
@@ -2278,20 +2211,55 @@
                         "R18": "false"
                     },
                     {
+                        "en": "mouth mask",
+                        "zh": "口罩",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "耳饰",
+                "tags": [
+                    {
                         "en": "headphones",
                         "zh": "耳机",
                         "R18": "false"
                     },
                     {
-                        "en": "mouth mask",
-                        "zh": "口罩",
+                        "en": "earrings",
+                        "zh": "耳环",
                         "R18": "false"
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "脖子",
+                "tags": [
                     {
                         "en": "bell",
                         "zh": "铃铛",
                         "R18": "false"
                     },
+                    {
+                        "en": "necklace",
+                        "zh": "项链",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "choker",
+                        "zh": "领圈",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "pet colla",
+                        "zh": "宠物项圈",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "手饰",
+                "tags": [
                     {
                         "en": "cuffs",
                         "zh": "手铐",
@@ -2308,13 +2276,18 @@
                         "R18": "false"
                     },
                     {
-                        "en": "school bag",
-                        "zh": "书包",
+                        "en": "bracelet",
+                        "zh": "手链",
                         "R18": "false"
                     },
                     {
-                        "en": "earrings",
-                        "zh": "耳环",
+                        "en": "watches",
+                        "zh": "手表",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "ring",
+                        "zh": "戒指",
                         "R18": "false"
                     }
                 ]
@@ -2367,10 +2340,40 @@
         ]
     },
     {
-        "category": "环境",
+        "category": "环境&背景",
         "types": [
             {
-                "name": "朝朝暮暮",
+                "name": "背景",
+                "tags": [
+                    {
+                        "en": "transparent_background",
+                        "zh": "透明背景",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "simple_background",
+                        "zh": "无背景",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "gradient_background",
+                        "zh": "渐变背景",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "white background",
+                        "zh": "白色背景",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "zoom_layer",
+                        "zh": "背景是前景的放大版",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "早晚季节",
                 "tags": [
                     {
                         "en": "dat",
@@ -2590,46 +2593,6 @@
                     {
                         "en": "hospital",
                         "zh": "医院",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "movie theater",
-                        "zh": "电影院",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "gym",
-                        "zh": "健身房",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "messy room",
-                        "zh": "杂乱的房间",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "dungeon",
-                        "zh": "地牢",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "fitting room",
-                        "zh": "试衣间",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "toilet stall",
-                        "zh": "厕所隔间",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "laboratory",
-                        "zh": "实验室",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "living room",
-                        "zh": "客厅",
                         "R18": "false"
                     }
                 ]
