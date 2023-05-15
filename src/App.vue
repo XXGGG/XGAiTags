@@ -187,8 +187,9 @@ function to_prompt(tag: any) {
   copy_tag(tag, 'low')
   let exist = tags.value.includes(tag);
   if (exist) {
-    let index = tags.value.indexOf(tag);
-    tags.value.splice(index, 1);
+    closeTag(tag)
+    // let index = tags.value.indexOf(tag);
+    // tags.value.splice(index, 1);
   } else {
     tags.value.push(tag);
   }
