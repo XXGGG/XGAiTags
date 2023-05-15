@@ -5,38 +5,29 @@
       <n-message-provider>
         <MSG ref="msgg" />
       </n-message-provider>
-      <!-- 顶部导航栏 -->
-      <n-card class="card_class" hoverable>
-        <div class="Top">
-          <div>XG AiTags</div>
-          <n-space>
-            <n-button @click="theme = darkTheme" v-if="theme == null">
-              <n-icon size="20"><SunnySharp /></n-icon>
-            </n-button>
-            <n-button @click="theme = null" v-else>
-              <n-icon size="20"><MoonOutline /></n-icon>
-            </n-button>
-            <a href="https://github.com/XXGGG/XGAiTags" target="_blank">
-              <n-button>
-                <n-icon size="20">
-                  <LogoGithub />
-                </n-icon>
-              </n-button>
-            </a>
-          </n-space>
-        </div>
-      </n-card>
-
       <!-- 展示框 -->
       <n-card class="card_class" hoverable>
         <div class="remote_control">
           <div class="remote_control_l">
-            <n-switch
-              size="large"
-              v-model:value="showWeight"
-              class="Button_Size">
+            <n-switch size="large" v-model:value="showWeight" class="Button_Size" :round="false">
+              <template #checked-icon>
+                ❗
+              </template>
+              <template #unchecked-icon>
+                ❕
+              </template>
               <template #checked>权重</template>
               <template #unchecked>权重</template>
+            </n-switch>
+            <n-switch size="large" v-model:value="showClose" class="Button_Size" :round="false">
+              <template #checked-icon>
+                <Close />
+              </template>
+              <template #unchecked-icon>
+                <Close />
+              </template>
+              <template #checked>删除</template>
+              <template #unchecked>删除</template>
             </n-switch>
             <n-switch size="large" v-model:value="showR18" class="Button_Size">
               <template #checked-icon>😈</template>
@@ -44,30 +35,32 @@
               <template #checked>R18</template>
               <template #unchecked>R18</template>
             </n-switch>
-            <!-- <n-switch
-              size="large"
-              v-model:value="togglebracket"
-              class="Button_Size"
-            >
-              <template #checked> { } </template>
-              <template #unchecked> ( ) </template>
-            </n-switch> -->
+            <n-switch size="large" v-model:value="OpenCopy" class="Button_Size">
+              <template #checked-icon></template>
+              <template #unchecked-icon></template>
+              <template #checked>单击复制</template>
+              <template #unchecked>单击复制</template>
+            </n-switch>
+
           </div>
           <div class="remote_control_r">
-            <n-button
-              type="success"
-              secondary
-              class="Button_Size"
-              @click="copy_all">
-              复制
-            </n-button>
-            <n-button
-              type="error"
-              secondary
-              class="Button_Size"
-              @click="close_all">
-              清空
-            </n-button>
+            <n-space>
+              <n-icon size="20" class="XGicon_tr" @click="theme = darkTheme" v-if="theme == null">
+                <SunnySharp />
+              </n-icon>
+              <n-icon size="20" class="XGicon_tr" @click="theme = null" v-else>
+                <MoonOutline />
+              </n-icon>
+              <n-icon size="20" class="XGicon_tr" @click="goUrl('https://github.com/XXGGG/XGAiTags')" title="Github">
+                <LogoGithub />
+              </n-icon>
+              <n-icon size="20" class="XGicon_tr" @click="goUrl('https://civitai.com/user/XXGGG')" title="C站">
+                <LogoWebComponent />
+              </n-icon>
+              <n-icon size="20" class="XGicon_tr" @click="goUrl('https://space.bilibili.com/5276030')" title="B站">
+                B
+              </n-icon>
+            </n-space>
           </div>
         </div>
 
@@ -75,76 +68,63 @@
           <div class="prompt_show_box">{{ prompt }}</div>
           <div class="prompt_show_box">
             <TransitionGroup name="list">
-              <div
-                v-for="(tag, index) in tags"
-                :key="tag"
-                class="tag_class"
-                draggable="true"
-                @dragstart.self="dragstart($event, index)"
-                @dragenter="dragenter($event, index)"
+              <div v-for="(tag, index) in tags" :key="tag" class="tag_class" draggable="true"
+                @dragstart.self="dragstart($event, index)" @dragenter="dragenter($event, index)"
                 @dragend="dragend($event, index)">
                 <n-button-group size="small">
-                  <n-button
-                    v-if="showWeight"
-                    size="small"
-                    :type="tag.R18 == 'false' ? 'primary' : 'error'"
-                    ghost
-                    @click="addKH(tag)">
-                    <n-icon size="20" color="#5ae6ae">
-                      <Add />
-                    </n-icon>
-                  </n-button>
-                  <n-button
-                    v-if="showWeight"
-                    size="small"
-                    :type="tag.R18 == 'false' ? 'primary' : 'error'"
-                    ghost
-                    @click="subKH(tag)">
-                    <n-icon size="20" color="#5ae6ae">
-                      <Remove />
-                    </n-icon>
-                  </n-button>
-                  <n-button
-                    :type="tag.R18 == 'false' ? 'primary' : 'error'"
-                    ghost>
-                    {{ tag.en }}&nbsp
-                    <n-gradient-text type="info">
-                      {{ tag.zh }}&nbsp
-                    </n-gradient-text>
-                  </n-button>
-                  <n-button
-                    :type="tag.R18 == 'false' ? 'primary' : 'error'"
-                    ghost
+                  <n-button v-if="showClose" :type="tag.R18 == 'false' ? 'primary' : 'error'" strong secondary
                     @click="closeTag(tag)">
                     <n-icon size="20" color="#c83838">
                       <Close />
                     </n-icon>
                   </n-button>
+                  <n-button v-if="showWeight" size="small" :type="tag.R18 == 'false' ? 'primary' : 'error'" strong
+                    secondary @click="addKH(tag)">
+                    <n-icon size="20" color="#5ae6ae">
+                      <Add />
+                    </n-icon>
+                  </n-button>
+                  <n-button v-if="showWeight" size="small" :type="tag.R18 == 'false' ? 'primary' : 'error'" strong
+                    secondary @click="subKH(tag)">
+                    <n-icon size="20" color="#5ae6ae">
+                      <Remove />
+                    </n-icon>
+                  </n-button>
+                  <n-button strong secondary :type="tag.R18 == 'false' ? 'primary' : 'error'"
+                    @click="copy_tag(tag, 'top')">
+                    {{ tag.en }}&nbsp
+                    <n-gradient-text type="info">
+                      {{ tag.zh }}&nbsp
+                    </n-gradient-text>
+                  </n-button>
+
+
                 </n-button-group>
               </div>
             </TransitionGroup>
           </div>
+        </div>
+        <div class="remote_control_r">
+          <n-space>
+            <n-button type="info" secondary @click="copy_all">
+              复制
+            </n-button>
+            <n-button type="error" secondary @click="close_all">
+              清空
+            </n-button>
+          </n-space>
         </div>
       </n-card>
 
       <!-- 选项框 -->
       <n-card class="card_class" hoverable>
         <n-tabs type="line" animated>
-          <n-tab-pane
-            v-for="(SB, index) in StatuteBook"
-            :name="SB.category"
-            :tab="SB.category">
+          <n-tab-pane v-for="(SB, index) in StatuteBook" :name="SB.category" :tab="SB.category">
             <div v-for="t in SB.types" v-show="SB.category != 'R18' || showR18">
               <h3>{{ t.name }}</h3>
-              <n-button
-                class="tag_button"
-                v-for="(tag, index) in t.tags"
-                @click="to_prompt(tag)"
-                :type="tag.R18 == 'false' ? 'success' : 'error'"
-                :dashed="selected(tag)"
-                :ghost="selected(tag)"
-                :secondary="!selected(tag)"
-                v-show="tag.R18 == 'false' || showR18">
+              <n-button class="tag_button" v-for="(tag, index) in t.tags" @click="to_prompt(tag)"
+                :type="tag.R18 == 'false' ? 'success' : 'error'" :dashed="selected(tag)" :ghost="selected(tag)"
+                :secondary="!selected(tag)" v-show="tag.R18 == 'false' || showR18">
                 {{ tag.en }}&nbsp
                 <n-gradient-text type="info">{{ tag.zh }}</n-gradient-text>
               </n-button>
@@ -167,6 +147,7 @@ import {
   LogoGithub,
   SunnySharp,
   MoonOutline,
+  LogoWebComponent
 } from "@vicons/ionicons5";
 import {
   NGlobalStyle,
@@ -193,13 +174,16 @@ const theme = ref<GlobalTheme | null>(darkTheme);
 const source = ref("");
 const { copy } = useClipboard({ source });
 
+
+
+
 let prompt = ref("");
 let tags: any = ref([]);
 
 const StatuteBook = StatuteBook2;
 
 function to_prompt(tag: any) {
-  // console.log(tag);
+  copy_tag(tag, 'low')
   let exist = tags.value.includes(tag);
   if (exist) {
     let index = tags.value.indexOf(tag);
@@ -212,23 +196,19 @@ function to_prompt(tag: any) {
 
 //无论做何操作，最后都需要重新连接所有关键词
 function JoinWord() {
-  // console.log(tags)
   let tags_en: any = [];
   tags.value.forEach(function (x: any) {
     tags_en.push(x.en);
   });
-  // console.log(tags_en)
   prompt.value = tags_en.join(",");
 }
 
 //删除对应标签
 function closeTag(tag: any) {
   let index = tags.value.indexOf(tag);
-  // console.log(tag)
   //去掉左右两边的括号！
   if (tag.en[0] == "(" || tag.en[0] == "[" || tag.en[0] == "{") {
     tag.en = tag.en.slice(1, -1);
-    // tags.value.splice(index, index == 0 ? "1" : index, tag);
     closeTag(tag);
   } else {
     tags.value.splice(index, 1);
@@ -248,7 +228,24 @@ function copy_all() {
   copy(prompt.value);
   msgg.value.show();
 }
+//单击复制标签！
+function copy_tag(tag: any, who: any) {
+  if (OpenCopy.value) {
+    let exist = tags.value.includes(tag);
+    if (!exist && who == 'low') {
+      copy(tag.en);
+      msgg.value.show();
+    } else if (exist && who == 'top') {
+      copy(tag.en);
+      msgg.value.show();
+    }
+  }
+}
 
+function goUrl(url: string) {
+  // location.href=url
+  window.open(url)
+}
 //判断是否选择了这个tag
 function selected(tag: any) {
   let exist = tags.value.includes(tag);
@@ -260,7 +257,9 @@ function selected(tag: any) {
 }
 //是否显示权重
 // let showWeight = ref(false);
-const showWeight = useStorage("showWeight", false);
+const showWeight = useStorage("showWeight", true);
+const showClose = useStorage("showClose", true);
+const OpenCopy = useStorage("OpenCopy", false);
 //是否显示18禁
 // let showR18 = ref(false);
 const showR18 = useStorage("showR18", false);
@@ -269,25 +268,45 @@ let togglebracket = ref(false);
 
 //加重权重
 function addKH(tag: any) {
-  let index = tags.value.indexOf(tag);
-  if (tag.en[0] == "[") {
-    tag.en = tag.en.slice(1, -1);
+  if (tag.en[0] == "(") {
+    let index = tag.en.indexOf(':')
+    if (index) {
+      let num1 = String(tag.en[index + 1])
+      let num2 = String(tag.en[index + 2])
+      let num3 = String(tag.en[index + 3])
+      let num = (Number(num1 + num2 + num3) * 10 + 1) / 10
+      tag.en = tag.en.slice(1, -5)
+      if (num3 == '9' && num < 10) {
+        tag.en = "(" + tag.en + ":" + num + ".0)";
+      } else if (num != 1 && num < 10) {
+        tag.en = "(" + tag.en + ":" + num + ")";
+      }
+    }
   } else {
-    tag.en = "(" + tag.en + ")";
+    tag.en = "(" + tag.en + ":1.1)";
   }
-  // tags.value.splice(index, index == "0" ? "1" : index, tag);
   JoinWord();
 }
 //减少权重
 function subKH(tag: any) {
-  let index = tags.value.indexOf(tag);
-
   if (tag.en[0] == "(") {
-    tag.en = tag.en.slice(1, -1);
+    let index = tag.en.indexOf(':')
+    if (index) {
+      let num1 = String(tag.en[index + 1])
+      let num2 = String(tag.en[index + 2])
+      let num3 = String(tag.en[index + 3])
+      let num = (Number(num1 + num2 + num3) * 10 - 1) / 10
+      tag.en = tag.en.slice(1, -5)
+      if (num3 == '1' && num > 1) {
+        tag.en = "(" + tag.en + ":" + num + ".0)";
+      } else if (num != 1 && num > 0) {
+        tag.en = "(" + tag.en + ":" + num + ")";
+      }
+    }
   } else {
-    tag.en = "[" + tag.en + "]";
+    tag.en = "(" + tag.en + ":0.9)";
   }
-  // tags.value.splice(index, index == "0" ? "1" : index, tag);
+
   JoinWord();
 }
 
@@ -306,7 +325,6 @@ let layerY: number;
 let moveing = false;
 //1.开始拖拽触发器
 function dragstart(ev: any, index: any) {
-  // console.log("拖拽开始！");
   //先把原来的“幽灵图片”隐藏
   var img = new Image();
   img.src = "";
@@ -364,8 +382,6 @@ function dragenter(ev: any, index: any) {
   if (!moveing) {
     moveing = true;
     out_index = index;
-    // console.log(in_index);
-    // console.log(out_index);
     if (in_index > out_index) {
       tags.value.splice(out_index, 0, tags.value[in_index]);
       tags.value.splice(in_index + 1, 1);
@@ -389,10 +405,12 @@ let dragend = (event: any, index: any) => {
   align-items: center;
   justify-content: space-between;
 }
+
 .card_class {
   width: calc(100% - 20px);
   margin: 10px auto;
 }
+
 .Prompt_class {
   display: flex;
   flex-direction: column;
@@ -410,13 +428,16 @@ let dragend = (event: any, index: any) => {
 
 .Button_Size {
   /* font-size: 20px; */
+  color: var(--n-text-color) !important;
   margin: 0 10px;
 }
+
 .tag_class {
   margin: 0 10px 10px 0;
   user-select: none;
   float: left;
 }
+
 .tag_button {
   margin: 0 10px 10px 0;
 }
@@ -427,10 +448,12 @@ let dragend = (event: any, index: any) => {
   justify-content: space-between;
   align-items: center;
 }
+
 .remote_control_l {
   display: flex;
   align-items: center;
 }
+
 .remote_control_r {
   display: flex;
   align-content: center;
@@ -439,5 +462,14 @@ let dragend = (event: any, index: any) => {
 
 .list-move {
   transition: all 0.2s;
+}
+
+.XGicon_tr {
+  cursor: pointer;
+  color: var(--n-text-color);
+
+  &:hover {
+    color: #5ae6ae;
+  }
 }
 </style>

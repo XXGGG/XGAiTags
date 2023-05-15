@@ -1,160 +1,5 @@
 [
     {
-        "category": "画质",
-        "types": [
-            {
-                "name": "常用画质词",
-                "tags": [
-                    {
-                        "en": "masterpiece",
-                        "zh": "杰作",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "best quality",
-                        "zh": "顶级质量",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "highres",
-                        "zh": "高分辨率",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "absurdres",
-                        "zh": "超高分辨率",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "incredibly_absurdres",
-                        "zh": "极高分辨率",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "wallpaper",
-                        "zh": "壁纸",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "正向预设",
-                "tags": [
-                    {
-                        "en": "masterpiece,best quality",
-                        "zh": "提升画质的正向标签",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "反向提示词",
-                "tags": [
-                    {
-                        "en": "lowres",
-                        "zh": "低分辨率",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "bad anatomy",
-                        "zh": "身体结构错误",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "bad hands",
-                        "zh": "手型错误",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "text",
-                        "zh": "含文字",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "error",
-                        "zh": "有错误",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "missing fingers",
-                        "zh": "缺少手指",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "extra digit",
-                        "zh": "多余手指",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "fewer digits",
-                        "zh": "缺少手指",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "cropped",
-                        "zh": "遭到裁剪",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "worst quality",
-                        "zh": "糟糕质量",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "low quality",
-                        "zh": "低质量",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "normal quality",
-                        "zh": "一般质量",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "jpeg artifacts",
-                        "zh": "JPEG 压缩失真",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "signature含签名",
-                        "zh": "含签名",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "watermark",
-                        "zh": "含水印",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "username",
-                        "zh": "含用户名",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "blurry",
-                        "zh": "模糊的",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "反向预设",
-                "tags": [
-                    {
-                        "en": "lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature, watermark,username,blurry",
-                        "zh": "抑制低质量图片与人体错误",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "lowres,text,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry",
-                        "zh": "抑制低质量图片",
-                        "R18": "false"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "category": "风格&主题",
         "types": [
             {
@@ -173,11 +18,6 @@
                     {
                         "en": "photo",
                         "zh": "照片",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "real",
-                        "zh": "真实",
                         "R18": "false"
                     },
                     {
@@ -203,6 +43,11 @@
                     {
                         "en": "chibi",
                         "zh": "Q版",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "watercolor",
+                        "zh": "水彩画",
                         "R18": "false"
                     }
                 ]
@@ -270,11 +115,346 @@
         ]
     },
     {
+        "category": "环境&背景&周边",
+        "types": [
+            {
+                "name": "背景",
+                "tags": [
+                    {
+                        "en": "transparent_background",
+                        "zh": "透明背景",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "simple_background",
+                        "zh": "无背景",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "gradient_background",
+                        "zh": "渐变背景",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "white background",
+                        "zh": "白色背景",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "zoom_layer",
+                        "zh": "背景是前景的放大版",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "早晚季节",
+                "tags": [
+                    {
+                        "en": "dat",
+                        "zh": "白天",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "dusk",
+                        "zh": "黄昏",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "night",
+                        "zh": "夜晚",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "in spring",
+                        "zh": "春",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "in summer",
+                        "zh": "夏",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "in autumn",
+                        "zh": "秋",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "in winter",
+                        "zh": "冬",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "日月星辰",
+                "tags": [
+                    {
+                        "en": "sun",
+                        "zh": "太阳",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "sunset",
+                        "zh": "落日",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "moon",
+                        "zh": "夜晚",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "full_moon",
+                        "zh": "满月",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "stars",
+                        "zh": "星星",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "cloudy",
+                        "zh": "多云",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "rain",
+                        "zh": "下雨",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "in the rain",
+                        "zh": "雨中",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "rainy days",
+                        "zh": "雨天",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "snow",
+                        "zh": "下雪",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "室内",
+                "tags": [
+                    {
+                        "en": "indoor",
+                        "zh": "室内",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "classroom",
+                        "zh": "教室",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "bedroom",
+                        "zh": "卧室",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "bathroom",
+                        "zh": "浴室",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "bathtub",
+                        "zh": "浴缸",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "kitchen",
+                        "zh": "厨房",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "library",
+                        "zh": "图书馆",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "stage",
+                        "zh": "舞台",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "locke room",
+                        "zh": "更衣室",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "office",
+                        "zh": "办公室",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "gym",
+                        "zh": "健身房",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "messy room",
+                        "zh": "杂乱的房间",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "dungeon",
+                        "zh": "地牢",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "fitting room",
+                        "zh": "试衣间",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "toilet stall",
+                        "zh": "厕所隔间",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "laboratory",
+                        "zh": "实验室",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "living room",
+                        "zh": "客厅",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "周边",
+                "tags": [
+                    {
+                        "en": "table",
+                        "zh": "桌子",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "chair",
+                        "zh": "椅子",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "stool",
+                        "zh": "凳子",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "sofa",
+                        "zh": "沙发",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "bed",
+                        "zh": "床",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "室外",
+                "tags": [
+                    {
+                        "en": "outdoor",
+                        "zh": "室外",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "grassland",
+                        "zh": "草原",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "snowfield",
+                        "zh": "雪地",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "city",
+                        "zh": "城市",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "seaside",
+                        "zh": "海边",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "mountaintop",
+                        "zh": "山顶",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "wood",
+                        "zh": "树林",
+                        "R18": "false"
+                    }
+                ]
+            },
+            {
+                "name": "建筑",
+                "tags": [
+                    {
+                        "en": "shrine",
+                        "zh": "神社",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "shop",
+                        "zh": "商店",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "ruins",
+                        "zh": "废墟",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "castle",
+                        "zh": "城堡",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "train station",
+                        "zh": "火车站",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "stadium",
+                        "zh": "体育场",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "hospital",
+                        "zh": "医院",
+                        "R18": "false"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "category": "人物&角色&身材",
         "types": [
             {
                 "name": "人物",
                 "tags": [
+                    {
+                        "en": "solo",
+                        "zh": "单人",
+                        "R18": "false"
+                    },
                     {
                         "en": "1girl",
                         "zh": "女孩",
@@ -309,17 +489,17 @@
                         "en": "3boys",
                         "zh": "3个男孩",
                         "R18": "false"
-                    },
-                    {
-                        "en": "solo",
-                        "zh": "单人",
-                        "R18": "false"
                     }
                 ]
             },
             {
                 "name": "构图",
                 "tags": [
+                    {
+                        "en": "portrait",
+                        "zh": "肖像",
+                        "R18": "false"
+                    },
                     {
                         "en": "back",
                         "zh": "背影像",
@@ -328,6 +508,11 @@
                     {
                         "en": "bust",
                         "zh": "半身像",
+                        "R18": "false"
+                    },
+                    {
+                        "en": "upper body",
+                        "zh": "上半身",
                         "R18": "false"
                     },
                     {
@@ -866,7 +1051,7 @@
                         "R18": "false"
                     },
                     {
-                        "en": "brown hair",
+                        "en": "black hair",
                         "zh": "黑发",
                         "R18": "false"
                     },
@@ -2333,266 +2518,6 @@
                     {
                         "en": "looking_at_viewer",
                         "zh": "看向观众",
-                        "R18": "false"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "category": "环境&背景",
-        "types": [
-            {
-                "name": "背景",
-                "tags": [
-                    {
-                        "en": "transparent_background",
-                        "zh": "透明背景",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "simple_background",
-                        "zh": "无背景",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "gradient_background",
-                        "zh": "渐变背景",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "white background",
-                        "zh": "白色背景",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "zoom_layer",
-                        "zh": "背景是前景的放大版",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "早晚季节",
-                "tags": [
-                    {
-                        "en": "dat",
-                        "zh": "白天",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "dusk",
-                        "zh": "黄昏",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "night",
-                        "zh": "夜晚",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "in spring",
-                        "zh": "春",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "in summer",
-                        "zh": "夏",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "in autumn",
-                        "zh": "秋",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "in winter",
-                        "zh": "冬",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "日月星辰",
-                "tags": [
-                    {
-                        "en": "sun",
-                        "zh": "太阳",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "sunset",
-                        "zh": "落日",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "moon",
-                        "zh": "夜晚",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "full_moon",
-                        "zh": "满月",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "stars",
-                        "zh": "星星",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "cloudy",
-                        "zh": "多云",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "rain",
-                        "zh": "下雨",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "in the rain",
-                        "zh": "雨中",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "rainy days",
-                        "zh": "雨天",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "snow",
-                        "zh": "下雪",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "室内",
-                "tags": [
-                    {
-                        "en": "classroom",
-                        "zh": "教室",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "bedroom",
-                        "zh": "卧室",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "bathroom",
-                        "zh": "浴室",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "bathtub",
-                        "zh": "浴缸",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "kitchen",
-                        "zh": "厨房",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "library",
-                        "zh": "图书馆",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "stage",
-                        "zh": "舞台",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "locke room",
-                        "zh": "更衣室",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "office",
-                        "zh": "办公室",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "gym",
-                        "zh": "健身房",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "messy room",
-                        "zh": "杂乱的房间",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "dungeon",
-                        "zh": "地牢",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "fitting room",
-                        "zh": "试衣间",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "toilet stall",
-                        "zh": "厕所隔间",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "laboratory",
-                        "zh": "实验室",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "living room",
-                        "zh": "客厅",
-                        "R18": "false"
-                    }
-                ]
-            },
-            {
-                "name": "建筑",
-                "tags": [
-                    {
-                        "en": "shrine",
-                        "zh": "神社",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "shop",
-                        "zh": "商店",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "ruins",
-                        "zh": "废墟",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "castle",
-                        "zh": "城堡",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "kitchen",
-                        "zh": "厨房",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "train station",
-                        "zh": "火车站",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "stadium",
-                        "zh": "体育场",
-                        "R18": "false"
-                    },
-                    {
-                        "en": "hospital",
-                        "zh": "医院",
                         "R18": "false"
                     }
                 ]
