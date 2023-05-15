@@ -9,16 +9,6 @@
       <n-card class="card_class" hoverable>
         <div class="remote_control">
           <div class="remote_control_l">
-            <n-switch size="large" v-model:value="showWeight" class="Button_Size" :round="false">
-              <template #checked-icon>
-                ❗
-              </template>
-              <template #unchecked-icon>
-                ❕
-              </template>
-              <template #checked>权重</template>
-              <template #unchecked>权重</template>
-            </n-switch>
             <n-switch size="large" v-model:value="showClose" class="Button_Size" :round="false">
               <template #checked-icon>
                 <Close />
@@ -29,6 +19,17 @@
               <template #checked>删除</template>
               <template #unchecked>删除</template>
             </n-switch>
+            <n-switch size="large" v-model:value="showWeight" class="Button_Size" :round="false">
+              <template #checked-icon>
+                ❗
+              </template>
+              <template #unchecked-icon>
+                ❕
+              </template>
+              <template #checked>权重</template>
+              <template #unchecked>权重</template>
+            </n-switch>
+
             <n-switch size="large" v-model:value="showR18" class="Button_Size">
               <template #checked-icon>😈</template>
               <template #unchecked-icon>🔞</template>
@@ -207,8 +208,8 @@ function JoinWord() {
 function closeTag(tag: any) {
   let index = tags.value.indexOf(tag);
   //去掉左右两边的括号！
-  if (tag.en[0] == "(" || tag.en[0] == "[" || tag.en[0] == "{") {
-    tag.en = tag.en.slice(1, -1);
+  if (tag.en[0] == "(") {
+    tag.en = tag.en.slice(1, -5);
     closeTag(tag);
   } else {
     tags.value.splice(index, 1);
